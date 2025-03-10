@@ -24,6 +24,7 @@
     zoom: 0.5;
     min-height: 100vh;
     height: auto;
+    overflow: scroll;
     padding: 3rem 4rem 3rem 4rem;
   }
 }
