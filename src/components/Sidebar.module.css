@@ -22,13 +22,14 @@
   .sidebar {
     flex-basis: 48rem;
     zoom: 0.8;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     padding: 3rem 4rem 3rem 4rem;
   }
 }
 @media screen and (max-width: 720px) {
   .sidebar {
-    flex-basis: 40rem;
+    flex-basis: 38rem;
     padding: 2rem 4rem;
   }
 }
