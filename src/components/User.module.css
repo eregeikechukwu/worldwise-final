@@ -15,6 +15,14 @@
   gap: 1.6rem;
 }
 
+@media screen and (max-width: 1000px) {
+  .user {
+    top: 3rem;
+    right: 3rem;
+    width: 42rem;
+  }
+}
+
 .user img {
   border-radius: 100px;
   height: 4rem;
