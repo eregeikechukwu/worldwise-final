@@ -18,10 +18,10 @@
   color: var(--color-light--1);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .sidebar {
     flex-basis: 38rem;
-    zoom: 0.5;
+    zoom: 0.8;
     min-height: 100vh;
     height: auto;
     overflow: scroll;
