@@ -17,9 +17,20 @@
 
 @media screen and (max-width: 1000px) {
   .user {
-    top: 3rem;
-    right: 3rem;
-    width: 42rem;
+    top: 2rem;
+    right: 2rem;
+    font-size: 1.3rem;
+    gap: 1.3rem;
+    padding: 0.8rem 1.2rem;
+  }
+
+  .user img {
+    height: 3rem;
+  }
+
+  .user button {
+    padding: 0.4rem 0.8rem;
+    font-size: 1rem;
   }
 }
 
