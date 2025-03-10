@@ -25,18 +25,6 @@
       "id": 98443197
     },
     {
-      "cityName": "Nijar",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-04-03T07:47:59.202Z",
-      "notes": "",
-      "position": {
-        "lat": "36.967508314568164",
-        "lng": "-2.13128394200588"
-      },
-      "id": 98443198
-    },
-    {
       "cityName": "Belchite",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -49,16 +37,16 @@
       "id": 98443199
     },
     {
-      "cityName": "San Miguel de la Ribera",
+      "cityName": "Arcos de Jalon",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2025-03-10T11:47:29.827Z",
-      "notes": "fsdsdv",
+      "date": "2025-03-10T13:24:50.835Z",
+      "notes": " i finished my portfolio",
       "position": {
-        "lat": "41.32959946939192",
-        "lng": "-5.567982420711503"
+        "lat": "41.13767236575096",
+        "lng": "-2.0498670399711343"
       },
-      "id": 98443200
+      "id": 98443201
     }
   ]
 }

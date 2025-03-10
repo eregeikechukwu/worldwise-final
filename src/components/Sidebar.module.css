@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 1000px) {
   .sidebar {
-    flex-basis: 42rem;
+    flex-basis: 45rem;
     zoom: 0.8;
     min-height: 100vh;
     height: auto;
