@@ -5,7 +5,7 @@
   display: flex;
   position: relative;
 }
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 1000px) {
   .app {
     padding: 0;
     zoom: 0.8;
