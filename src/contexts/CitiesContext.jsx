@@ -1,6 +1,7 @@
 import {
   createContext,
   useEffect,
+  useState,
   useContext,
   useReducer,
   useCallback,
@@ -54,6 +55,8 @@ function CitiesProvider({ children }) {
     initialState
   );
 
+  const [isUpdated, setIsUpdated] = useState(false);
+
   useEffect(() => {
     async function fetchCities() {
       dispatch({ type: "loading" });
@@ -75,7 +78,7 @@ function CitiesProvider({ children }) {
       }
     }
     fetchCities();
-  }, []);
+  }, [isUpdated]);
 
   const getCity = useCallback(
     async (id) => {
@@ -103,6 +106,7 @@ function CitiesProvider({ children }) {
 
   async function createCity(newCity) {
     dispatch({ type: "loading" });
+    setIsUpdated(!isUpdated);
     try {
       const res = await fetch(`${SUPABASE_URL}/rest/v1/cities`, {
         method: "POST",
@@ -136,6 +140,7 @@ function CitiesProvider({ children }) {
       });
       if (!res.ok) throw new Error("Error deleting city");
       dispatch({ type: "city/deleted", payload: id });
+      setIsUpdated(!isUpdated);
     } catch {
       dispatch({
         type: "rejected",
